@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.6.0)
+  - PusherSwift (5.1.1)
+  - PushNotifications (1.2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6.0)
+  - PusherSwift (~> 5.1.1)
+  - PushNotifications
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - PusherSwift
+    - PushNotifications
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  PusherSwift: de9238b6b9faec5275d452e5f43ce9c82b78731e
+  PushNotifications: b251b6243148e30039481cbb6e140fe7769d08d4
+
+PODFILE CHECKSUM: a8cc82ddff42a41d699dd16a675da3ffe1100220
+
+COCOAPODS: 1.5.2

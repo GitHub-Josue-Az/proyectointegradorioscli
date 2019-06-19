@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19BDEEF83CDA176DCED9411C /* Pods_ProyectoIntegrador.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B15A710305EE437A620448F /* Pods_ProyectoIntegrador.framework */; };
+		A05310EB22B9AF370064FCE4 /* AppMisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05310EA22B9AF370064FCE4 /* AppMisc.swift */; };
+		A0E0C03E22B9972A004D08BD /* PizzaTableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C03D22B9972A004D08BD /* PizzaTableListViewController.swift */; };
+		A0E0C04222B998C2004D08BD /* PizzaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C04122B998C2004D08BD /* PizzaTableViewCell.swift */; };
+		A0E0C04622B99927004D08BD /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C04522B99927004D08BD /* PizzaViewController.swift */; };
+		A0E0C04822B99969004D08BD /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C04722B99969004D08BD /* OrderTableViewController.swift */; };
+		A0E0C04A22B99996004D08BD /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C04922B99996004D08BD /* OrderViewController.swift */; };
+		A0E0C04C22B99A1F004D08BD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C04B22B99A1F004D08BD /* Order.swift */; };
+		A0E0C04E22B99A39004D08BD /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C04D22B99A39004D08BD /* Pizza.swift */; };
+		A0E0C05022B99BDD004D08BD /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0C04F22B99BDD004D08BD /* ActivityIndicator.swift */; };
 		A0F0B15E22B9877300D750BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F0B15D22B9877300D750BD /* AppDelegate.swift */; };
 		A0F0B16022B9877300D750BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F0B15F22B9877300D750BD /* ViewController.swift */; };
 		A0F0B16322B9877300D750BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F0B16122B9877300D750BD /* Main.storyboard */; };
@@ -15,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B15A710305EE437A620448F /* Pods_ProyectoIntegrador.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoIntegrador.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFB22D3584059528950D4FD /* Pods-ProyectoIntegrador.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoIntegrador.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoIntegrador/Pods-ProyectoIntegrador.debug.xcconfig"; sourceTree = "<group>"; };
+		A05310EA22B9AF370064FCE4 /* AppMisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMisc.swift; sourceTree = "<group>"; };
+		A0D35A6622B9BFAE00811A4B /* ProyectoIntegrador.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProyectoIntegrador.entitlements; sourceTree = "<group>"; };
+		A0E0C03D22B9972A004D08BD /* PizzaTableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTableListViewController.swift; sourceTree = "<group>"; };
+		A0E0C04122B998C2004D08BD /* PizzaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTableViewCell.swift; sourceTree = "<group>"; };
+		A0E0C04522B99927004D08BD /* PizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
+		A0E0C04722B99969004D08BD /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		A0E0C04922B99996004D08BD /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		A0E0C04B22B99A1F004D08BD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A0E0C04D22B99A39004D08BD /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		A0E0C04F22B99BDD004D08BD /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		A0F0B15A22B9877300D750BD /* ProyectoIntegrador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoIntegrador.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F0B15D22B9877300D750BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0F0B15F22B9877300D750BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,7 @@
 		A0F0B16422B9877300D750BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0F0B16722B9877300D750BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0F0B16922B9877300D750BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF39BFE531E6C4395D705BC4 /* Pods-ProyectoIntegrador.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoIntegrador.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoIntegrador/Pods-ProyectoIntegrador.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BDEEF83CDA176DCED9411C /* Pods_ProyectoIntegrador.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6ECC5587BE92A24F18B207 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DFB22D3584059528950D4FD /* Pods-ProyectoIntegrador.debug.xcconfig */,
+				DF39BFE531E6C4395D705BC4 /* Pods-ProyectoIntegrador.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		100641508DA3FCF3C79C01CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B15A710305EE437A620448F /* Pods_ProyectoIntegrador.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0F0B15122B9877300D750BD = {
 			isa = PBXGroup;
 			children = (
 				A0F0B15C22B9877300D750BD /* ProyectoIntegrador */,
 				A0F0B15B22B9877300D750BD /* Products */,
+				0A6ECC5587BE92A24F18B207 /* Pods */,
+				100641508DA3FCF3C79C01CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +97,22 @@
 		A0F0B15C22B9877300D750BD /* ProyectoIntegrador */ = {
 			isa = PBXGroup;
 			children = (
+				A0D35A6622B9BFAE00811A4B /* ProyectoIntegrador.entitlements */,
 				A0F0B15D22B9877300D750BD /* AppDelegate.swift */,
 				A0F0B15F22B9877300D750BD /* ViewController.swift */,
 				A0F0B16122B9877300D750BD /* Main.storyboard */,
 				A0F0B16422B9877300D750BD /* Assets.xcassets */,
 				A0F0B16622B9877300D750BD /* LaunchScreen.storyboard */,
 				A0F0B16922B9877300D750BD /* Info.plist */,
+				A0E0C03D22B9972A004D08BD /* PizzaTableListViewController.swift */,
+				A0E0C04122B998C2004D08BD /* PizzaTableViewCell.swift */,
+				A0E0C04522B99927004D08BD /* PizzaViewController.swift */,
+				A0E0C04722B99969004D08BD /* OrderTableViewController.swift */,
+				A0E0C04922B99996004D08BD /* OrderViewController.swift */,
+				A0E0C04B22B99A1F004D08BD /* Order.swift */,
+				A0E0C04D22B99A39004D08BD /* Pizza.swift */,
+				A0E0C04F22B99BDD004D08BD /* ActivityIndicator.swift */,
+				A05310EA22B9AF370064FCE4 /* AppMisc.swift */,
 			);
 			path = ProyectoIntegrador;
 			sourceTree = "<group>";
@@ -71,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0F0B16C22B9877300D750BD /* Build configuration list for PBXNativeTarget "ProyectoIntegrador" */;
 			buildPhases = (
+				687F41297D0475D31F11FE44 /* [CP] Check Pods Manifest.lock */,
 				A0F0B15622B9877300D750BD /* Sources */,
 				A0F0B15722B9877300D750BD /* Frameworks */,
 				A0F0B15822B9877300D750BD /* Resources */,
+				146FF392C2AF22D012125838 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +151,11 @@
 					A0F0B15922B9877300D750BD = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,12 +190,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		146FF392C2AF22D012125838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoIntegrador/Pods-ProyectoIntegrador-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PushNotifications/PushNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PushNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoIntegrador/Pods-ProyectoIntegrador-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687F41297D0475D31F11FE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoIntegrador-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0F0B15622B9877300D750BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E0C04622B99927004D08BD /* PizzaViewController.swift in Sources */,
+				A0E0C04222B998C2004D08BD /* PizzaTableViewCell.swift in Sources */,
+				A05310EB22B9AF370064FCE4 /* AppMisc.swift in Sources */,
+				A0E0C04E22B99A39004D08BD /* Pizza.swift in Sources */,
+				A0E0C04C22B99A1F004D08BD /* Order.swift in Sources */,
+				A0E0C03E22B9972A004D08BD /* PizzaTableListViewController.swift in Sources */,
+				A0E0C04A22B99996004D08BD /* OrderViewController.swift in Sources */,
+				A0E0C05022B99BDD004D08BD /* ActivityIndicator.swift in Sources */,
 				A0F0B16022B9877300D750BD /* ViewController.swift in Sources */,
+				A0E0C04822B99969004D08BD /* OrderTableViewController.swift in Sources */,
 				A0F0B15E22B9877300D750BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,13 +383,15 @@
 		};
 		A0F0B16D22B9877300D750BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFB22D3584059528950D4FD /* Pods-ProyectoIntegrador.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProyectoIntegrador/ProyectoIntegrador.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59N6L23TZY;
+				DEVELOPMENT_TEAM = W8AV9P8GXP;
 				INFOPLIST_FILE = ProyectoIntegrador/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.Josue.ProyectoIntegrador;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Josue.ProyectoIntegrador4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -286,13 +400,15 @@
 		};
 		A0F0B16E22B9877300D750BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF39BFE531E6C4395D705BC4 /* Pods-ProyectoIntegrador.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProyectoIntegrador/ProyectoIntegrador.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59N6L23TZY;
+				DEVELOPMENT_TEAM = W8AV9P8GXP;
 				INFOPLIST_FILE = ProyectoIntegrador/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.Josue.ProyectoIntegrador;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Josue.ProyectoIntegrador4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
