@@ -17,13 +17,13 @@ class OrderViewController: UIViewController {
         
         switch order!.status {
         case .pending:
-            status.text = "Processing Order"
+            status.text = "Procesando la alerta"
         case .accepted:
-            status.text = "Preparing Order"
+            status.text = "Preparando alerta"
         case .dispatched:
-            status.text = "Order is on its way!"
+            status.text = "La alerta esta en camino"
         case .delivered:
-            status.text = "Order delivered"
+            status.text = "Alerta entregada"
             activityView.strokeColor = UIColor.green
             activityView.completeLoading(success: true)
         }

@@ -8,7 +8,7 @@ class PizzaTableListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = "Select Pizza"
+        navigationItem.title = "Seleccionar alerta"
         
         fetchInventory { pizzas in
             guard pizzas != nil else { return }
@@ -52,7 +52,7 @@ class PizzaTableListViewController: UITableViewController {
         
         cell.name.text = pizzas[indexPath.row].name
         cell.imageView?.image = pizzas[indexPath.row].image
-        cell.amount.text = "$\(pizzas[indexPath.row].amount)"
+        cell.amount.text = "pizzas[indexPath.row].amount"
         cell.miscellaneousText.text = pizzas[indexPath.row].description
         
         return cell

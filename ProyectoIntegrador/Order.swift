@@ -7,8 +7,8 @@ struct Order {
 }
 
 enum OrderStatus: String {
-    case pending = "Pending"
-    case accepted = "Accepted"
-    case dispatched = "Dispatched"
-    case delivered = "Delivered"
+    case pending = "Pendiente"
+    case accepted = "Aceptado"
+    case dispatched = "Enviado"
+    case delivered = "Entregado"
 }
